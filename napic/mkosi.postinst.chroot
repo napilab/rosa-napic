@@ -35,4 +35,4 @@ printf "Generate /boot/boot.scr...\n"
 sed -i 's/^#*PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
 sed -i "/^root$/d" /etc/ssh/denyusers
 useradd -m -G wheel napi
-echo 'napi:napilinux' | chpasswd
+echo 'napi:$6$Jpj/cXNmk4VVekL1$qm/vCbgS/yhZyXB2K3hhxr/3k9BKsSpAW3t0/DirrX1BuHk9kcF/3b0FvN8ci4VYSYKazlgGsSo2CGxcnOkVB.' | chpasswd -e
