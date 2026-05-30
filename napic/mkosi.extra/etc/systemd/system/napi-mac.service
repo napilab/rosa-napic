@@ -1,0 +1,12 @@
+[Unit]
+Description=Set persistent MAC address for end0
+Before=network.target
+Wants=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/napi-set-mac.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

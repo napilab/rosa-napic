@@ -1,0 +1,10 @@
+#!/bin/sh
+set -Eeuo pipefail
+UBOOT_DIR="${SRCDIR}/mkosi"
+IMAGE="${OUTPUTDIR}/image.raw"
+pushd ${OUTPUTDIR}
+printf "write bootloader to the image...\n"
+dd if=${UBOOT_DIR}/idbloader.bin of=${IMAGE} seek=64 conv=notrunc
+dd if=${UBOOT_DIR}/uboot.img of=${IMAGE} seek=16384 conv=notrunc
+dd if=${UBOOT_DIR}/trust.bin of=${IMAGE} seek=24576 conv=notrunc
+popd

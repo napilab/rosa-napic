@@ -1,0 +1,1441 @@
+=== Building rosa_napic_30May-1514-vendor_611 ===
+‣ /work/image-builder/device/rockchip/napi-c/mkosi.conf: Setting PackageDirectories should be configured in [Content], not [Host].
+‣ Removing output files of default image…
+‣ Validating certificates and keys
+‣ Syncing package manager metadata
+No matches found for the following enable plugin patterns: versionlock
+main-release                                    6.2 kB/s | 3.4 kB     00:00    
+Metadata cache created.
+‣ Copying repository metadata
+‣ Building default image
+‣  Copying in extra packages…
+‣  Rebuilding local package repository
+Directory walk started
+Directory walk done - 1 packages
+Temporary output repo path: /work/var/tmp/mkosi-workspace-7gx5bs7x/repository/.repodata/
+Pool started (with 5 workers)
+Pool finished
+No matches found for the following enable plugin patterns: versionlock
+mkosi                                           8.5 MB/s |  32 kB     00:00    
+Metadata cache created.
+‣  Installing ROSA Fresh
+No matches found for the following enable plugin patterns: versionlock
+Dependencies resolved.
+================================================================================
+ Package                       Arch    Version               Repository    Size
+================================================================================
+Installing:
+ basesystem-minimal            aarch64 2023-2                main-release 6.4 k
+Installing dependencies:
+ bash                          aarch64 5.2-9                 main-release 987 k
+ branding-configs-common       aarch64 1:13-18               main-release  50 k
+ branding-configs-fresh-rootfs aarch64 1:13-18               main-release  21 k
+ branding-configs-rpm-macros   aarch64 1:13-18               main-release 8.8 k
+ coreutils                     aarch64 9.5-2                 main-release 1.9 M
+ filesystem                    aarch64 3-4                   main-release  24 k
+ glibc                         aarch64 7:2.40-11.gitc8e10f.6 main-release 2.2 M
+ lib64acl1                     aarch64 2.3.2-4               main-release  28 k
+ lib64attr1                    aarch64 2.5.2-1               main-release  14 k
+ lib64audit1                   aarch64 4.1.3-1               main-release  51 k
+ lib64bsd0                     aarch64 0.12.2-1              main-release 110 k
+ lib64cap-ng0                  aarch64 0.8.5-1               main-release  25 k
+ lib64cap2                     aarch64 2.70-1                main-release  24 k
+ lib64crypt1                   aarch64 4.4.36-4              main-release  85 k
+ lib64drop_ambient0            aarch64 0.8.5-1               main-release 8.7 k
+ lib64history8                 aarch64 8.2-2                 main-release  27 k
+ lib64md0                      aarch64 1.1.0-1               main-release  26 k
+ lib64ncursesw6                aarch64 6.5-3                 main-release 232 k
+ lib64pam0                     aarch64 1:1.6.1-9             main-release  35 k
+ lib64pcre2-8_0                aarch64 10.46-1               main-release 211 k
+ lib64readline8                aarch64 8.2-2                 main-release 128 k
+ lib64selinux1                 aarch64 1:3.6-2               main-release  68 k
+ lib64systemd0                 aarch64 256.17-7              main-release 318 k
+ libaudit-common               aarch64 4.1.3-1               main-release 9.2 k
+ rootfiles                     noarch  12-3                  main-release 7.8 k
+ setup                         noarch  2.9.4-5               main-release 126 k
+ shadow-conv                   aarch64 2:4.17.2-3            main-release  51 k
+
+Transaction Summary
+================================================================================
+Install  28 Packages
+
+Total size: 6.7 M
+Installed size: 40 M
+Downloading Packages:
+[SKIPPED] basesystem-minimal-2023-2-rosa13.aarch64.rpm: Already downloaded     
+[SKIPPED] bash-5.2-9-rosa13.aarch64.rpm: Already downloaded                    
+[SKIPPED] branding-configs-common-13-18-rosa13.aarch64.rpm: Already downloaded 
+[SKIPPED] branding-configs-fresh-rootfs-13-18-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] branding-configs-rpm-macros-13-18-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] coreutils-9.5-2-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] filesystem-3-4-rosa13.aarch64.rpm: Already downloaded                
+[SKIPPED] glibc-2.40-11.gitc8e10f.6-rosa13.aarch64.rpm: Already downloaded     
+[SKIPPED] lib64acl1-2.3.2-4-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64attr1-2.5.2-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64audit1-4.1.3-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64bsd0-0.12.2-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64cap-ng0-0.8.5-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64cap2-2.70-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] lib64crypt1-4.4.36-4-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64drop_ambient0-0.8.5-1-rosa13.aarch64.rpm: Already downloaded    
+[SKIPPED] lib64history8-8.2-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64md0-1.1.0-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] lib64ncursesw6-6.5-3-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64pam0-1.6.1-9-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64pcre2-8_0-10.46-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64readline8-8.2-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64selinux1-3.6-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64systemd0-256.17-7-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] libaudit-common-4.1.3-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] rootfiles-12-3-rosa13.noarch.rpm: Already downloaded                 
+[SKIPPED] setup-2.9.4-5-rosa13.noarch.rpm: Already downloaded                  
+[SKIPPED] shadow-conv-4.17.2-3-rosa13.aarch64.rpm: Already downloaded          
+main-release                                    1.6 MB/s | 1.7 kB     00:00    
+Importing GPG key 0x16A853E7:
+ Userid     : "Repo Team <alex.burmashev@rosalab.ru>"
+ Fingerprint: C3FE 0B0A 644D C85E 441D A5EA F53E 9DB1 16A8 53E7
+ From       : /usr/share/distribution-gpg-keys/rosa/RPM-GPG-KEY-ROSA
+Key imported successfully
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Running scriptlet: filesystem-3-4.aarch64                                 1/1 
+  Preparing        :                                                        1/1 
+  Installing       : setup-2.9.4-5.noarch                                  1/28 
+warning: group shadow does not exist - using root
+warning: group shadow does not exist - using root
+
+  Installing       : filesystem-3-4.aarch64                                2/28 
+  Installing       : branding-configs-common-1:13-18.aarch64               3/28 
+  Installing       : branding-configs-rpm-macros-1:13-18.aarch64           4/28 
+  Installing       : branding-configs-fresh-rootfs-1:13-18.aarch64         5/28 
+  Installing       : rootfiles-12-3.noarch                                 6/28 
+  Installing       : basesystem-minimal-2023-2.aarch64                     7/28 
+  Installing       : lib64history8-8.2-2.aarch64                           8/28 
+  Installing       : lib64ncursesw6-6.5-3.aarch64                          9/28 
+  Installing       : lib64pcre2-8_0-10.46-1.aarch64                       10/28 
+  Installing       : bash-5.2-9.aarch64                                   11/28 
+  Installing       : lib64readline8-8.2-2.aarch64                         12/28 
+  Running scriptlet: glibc-7:2.40-11.gitc8e10f.6.aarch64                  13/28 
+  Installing       : glibc-7:2.40-11.gitc8e10f.6.aarch64                  13/28 
+  Running scriptlet: glibc-7:2.40-11.gitc8e10f.6.aarch64                  13/28 
+  Installing       : lib64selinux1-1:3.6-2.aarch64                        14/28 
+  Installing       : lib64attr1-2.5.2-1.aarch64                           15/28 
+  Installing       : lib64cap-ng0-0.8.5-1.aarch64                         16/28 
+  Installing       : lib64drop_ambient0-0.8.5-1.aarch64                   17/28 
+  Installing       : lib64acl1-2.3.2-4.aarch64                            18/28 
+  Installing       : lib64crypt1-4.4.36-4.aarch64                         19/28 
+  Installing       : lib64md0-1.1.0-1.aarch64                             20/28 
+  Installing       : lib64bsd0-0.12.2-1.aarch64                           21/28 
+  Installing       : libaudit-common-4.1.3-1.aarch64                      22/28 
+  Installing       : lib64audit1-4.1.3-1.aarch64                          23/28 
+  Installing       : lib64pam0-1:1.6.1-9.aarch64                          24/28 
+  Installing       : lib64cap2-2.70-1.aarch64                             25/28 
+  Installing       : lib64systemd0-256.17-7.aarch64                       26/28 
+  Installing       : shadow-conv-2:4.17.2-3.aarch64                       27/28 
+  Installing       : coreutils-9.5-2.aarch64                              28/28 
+  Running scriptlet: setup-2.9.4-5.noarch                                 28/28 
+  Running scriptlet: filesystem-3-4.aarch64                               28/28 
+  Running scriptlet: branding-configs-fresh-rootfs-1:13-18.aarch64        28/28 
+  Running scriptlet: rootfiles-12-3.noarch                                28/28 
+  Running scriptlet: glibc-7:2.40-11.gitc8e10f.6.aarch64                  28/28 
+  Running scriptlet: coreutils-9.5-2.aarch64                              28/28 
+
+Installed:
+  basesystem-minimal-2023-2.aarch64                                             
+  bash-5.2-9.aarch64                                                            
+  branding-configs-common-1:13-18.aarch64                                       
+  branding-configs-fresh-rootfs-1:13-18.aarch64                                 
+  branding-configs-rpm-macros-1:13-18.aarch64                                   
+  coreutils-9.5-2.aarch64                                                       
+  filesystem-3-4.aarch64                                                        
+  glibc-7:2.40-11.gitc8e10f.6.aarch64                                           
+  lib64acl1-2.3.2-4.aarch64                                                     
+  lib64attr1-2.5.2-1.aarch64                                                    
+  lib64audit1-4.1.3-1.aarch64                                                   
+  lib64bsd0-0.12.2-1.aarch64                                                    
+  lib64cap-ng0-0.8.5-1.aarch64                                                  
+  lib64cap2-2.70-1.aarch64                                                      
+  lib64crypt1-4.4.36-4.aarch64                                                  
+  lib64drop_ambient0-0.8.5-1.aarch64                                            
+  lib64history8-8.2-2.aarch64                                                   
+  lib64md0-1.1.0-1.aarch64                                                      
+  lib64ncursesw6-6.5-3.aarch64                                                  
+  lib64pam0-1:1.6.1-9.aarch64                                                   
+  lib64pcre2-8_0-10.46-1.aarch64                                                
+  lib64readline8-8.2-2.aarch64                                                  
+  lib64selinux1-1:3.6-2.aarch64                                                 
+  lib64systemd0-256.17-7.aarch64                                                
+  libaudit-common-4.1.3-1.aarch64                                               
+  rootfiles-12-3.noarch                                                         
+  setup-2.9.4-5.noarch                                                          
+  shadow-conv-2:4.17.2-3.aarch64                                                
+
+Complete!
+Error: Missing /usr/lib64/gconv/gconv-modules.cache file.nNo matches found for the following enable plugin patterns: versionlock
+Last metadata expiration check: 0:00:03 ago on Sat May 30 15:14:59 2026.
+Package coreutils-9.5-2.aarch64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package                 Arch     Version                   Repository     Size
+================================================================================
+Installing:
+ dnf                     noarch   4.22.0-5                  main-release  469 k
+ dracut                  aarch64  106-0.git57efb3.7         main-release  360 k
+ iproute2                aarch64  6.11.0-3                  main-release  701 k
+ kernel-6.1-rockchip     aarch64  6.1.115-1                 mkosi          28 M
+ locales-en              aarch64  7:2.40-11.gitc8e10f.6     main-release  338 k
+ minicom                 aarch64  2.9-1                     main-release  243 k
+ neovim                  aarch64  0.11.6-2                  main-release  2.1 M
+ openssh-server          aarch64  9.7p1-10                  main-release  393 k
+ rosa-repos              aarch64  1:13-4                    main-release  8.9 k
+ rosa-repos-contrib      aarch64  1:13-4                    main-release  9.9 k
+ systemd                 aarch64  256.17-7                  main-release  6.0 M
+ uboot-tools             aarch64  2024.10-1                 main-release  354 k
+ vim-minimal             aarch64  2:9.2.0321-1              main-release  733 k
+Installing dependencies:
+ acl                     aarch64  2.3.2-4                   main-release   70 k
+ bash-completion         noarch   2:2.15.0-1                main-release  288 k
+ binutils                aarch64  2.43.1-6                  main-release  5.7 M
+ bridge-utils            aarch64  1.7.1-1                   main-release   27 k
+ bzip2                   aarch64  1.0.8-4                   main-release   72 k
+ chkconfig               aarch64  1.26-1                    main-release  154 k
+ cpio                    aarch64  2.15-2                    main-release  238 k
+ cracklib-common         aarch64  2.10.2-1                  main-release   30 k
+ cracklib-dicts          aarch64  2.10.2-1                  main-release  3.6 M
+ dash                    aarch64  0.5.11.5-2                main-release   78 k
+ dbus-common             noarch   1.14.10-3                 main-release   13 k
+ dbus-daemon             aarch64  1.14.10-3                 main-release  127 k
+ dbus-tools              aarch64  1.14.10-3                 main-release   38 k
+ deltarpm                aarch64  3.6.5-1                   main-release  122 k
+ dhcp-client             aarch64  3:4.4.3P1-5               main-release  1.0 M
+ dhcp-common             aarch64  3:4.4.3P1-5               main-release  102 k
+ diffutils               aarch64  3.10-1                    main-release  330 k
+ dnf-conf                noarch   4.22.0-5                  main-release   36 k
+ dtc                     aarch64  1.7.1-1                   main-release   61 k
+ e2fsprogs               aarch64  1.47.2-1                  main-release  1.5 M
+ efivar                  aarch64  1:39-1                    main-release   42 k
+ file                    aarch64  5.45-1                    main-release  334 k
+ findutils               aarch64  4.9.0-2                   main-release  421 k
+ gawk                    aarch64  5.3.1-1                   main-release  1.1 M
+ gnupg2                  aarch64  2.2.45-1                  main-release  2.5 M
+ gnutls-locales          noarch   3.8.10-1                  main-release   98 k
+ gptfdisk                aarch64  1.0.10-1                  main-release  220 k
+ grep                    aarch64  3.12-1                    main-release  240 k
+ gzip                    aarch64  1.13-3                    main-release  121 k
+ icu76-data              aarch64  1:76.1-3                  main-release  7.4 M
+ iputils                 aarch64  20250605-1                main-release  181 k
+ kbd                     aarch64  2.6.4-4                   main-release  316 k
+ kbd-legacy              noarch   2.6.4-4                   main-release  533 k
+ kbd-misc                noarch   2.6.4-4                   main-release  1.6 M
+ kmod                    aarch64  33-1                      main-release   95 k
+ krb5                    aarch64  1.21.3-7                  main-release  211 k
+ less                    aarch64  679-1                     main-release  230 k
+ lib64archive13          aarch64  3.8.5-1                   main-release  395 k
+ lib64argon2_1           aarch64  20190702-3                main-release   24 k
+ lib64asm1               aarch64  0.192-1                   main-release   17 k
+ lib64assuan9            aarch64  3.0.1-1                   main-release   38 k
+ lib64blkid1             aarch64  1:2.39.4-2                main-release   90 k
+ lib64bpf1               aarch64  2:1.5.0-1                 main-release  165 k
+ lib64bzip2_1            aarch64  1.0.8-4                   main-release   38 k
+ lib64cares2             aarch64  1.34.4-1                  main-release   98 k
+ lib64cbor0.11           aarch64  0.11.0-1                  main-release   28 k
+ lib64comps0             aarch64  0.1.21-1                  main-release   59 k
+ lib64crack2             aarch64  2.10.2-1                  main-release   18 k
+ lib64crypto3            aarch64  3.5.5-2                   main-release  2.4 M
+ lib64crypto_libressl46  aarch64  3.2.0-8                   main-release  728 k
+ lib64cryptsetup12       aarch64  2.7.5-1                   main-release  222 k
+ lib64curl-libressl4     aarch64  1:8.11.1-8                main-release  484 k
+ lib64curl4              aarch64  1:8.11.1-8                main-release  483 k
+ lib64dbus-1_3           aarch64  1.14.10-3                 main-release  135 k
+ lib64devmapper1.02      aarch64  1.02.200-3                main-release  138 k
+ lib64dnf2               aarch64  0.73.4-1                  main-release  507 k
+ lib64dw1                aarch64  0.192-1                   main-release  161 k
+ lib64edit0              aarch64  3.1-1.20240808.5          main-release   84 k
+ lib64efivar1            aarch64  1:39-1                    main-release   95 k
+ lib64elf1               aarch64  0.192-1                   main-release   39 k
+ lib64event2.1_7         aarch64  2.1.12-5                  main-release  128 k
+ lib64event_core2.1_7    aarch64  2.1.12-5                  main-release   81 k
+ lib64expat1             aarch64  2.7.4-1                   main-release   67 k
+ lib64ext2fs2            aarch64  1.47.2-1                  main-release  210 k
+ lib64fdisk1             aarch64  1:2.39.4-2                main-release  114 k
+ lib64fdt1               aarch64  1.7.1-1                   main-release   22 k
+ lib64ffi8               aarch64  3.4.6-1                   main-release   25 k
+ lib64fido2_1            aarch64  1.14.0-2                  main-release   82 k
+ lib64fuse3_3            aarch64  3.16.2-2                  main-release   76 k
+ lib64gcc1               aarch64  14.3.0-4                  main-release   61 k
+ lib64gcrypt20           aarch64  1.11.0-2                  main-release  473 k
+ lib64gdbm6              aarch64  1.24-1                    main-release   45 k
+ lib64gdbm_compat4       aarch64  1.24-1                    main-release   11 k
+ lib64gio2.0_0           aarch64  1:2.86.3-1                main-release  615 k
+ lib64glib2.0_0          aarch64  1:2.86.3-1                main-release  459 k
+ lib64gmodule2.0_0       aarch64  1:2.86.3-1                main-release   17 k
+ lib64gmp10              aarch64  6.3.0-1                   main-release  224 k
+ lib64gnutls30           aarch64  3.8.10-1                  main-release  824 k
+ lib64gobject2.0_0       aarch64  1:2.86.3-1                main-release  146 k
+ lib64gpg-error0         aarch64  1.51-1                    main-release   67 k
+ lib64gpgme11            aarch64  1.24.3-1                  main-release  133 k
+ lib64gssapi_krb5_2      aarch64  1.21.3-7                  main-release  128 k
+ lib64gssrpc4            aarch64  1.21.3-7                  main-release   53 k
+ lib64hogweed6           aarch64  1:3.10-1                  main-release  191 k
+ lib64icudata76          aarch64  1:76.1-3                  main-release  9.9 k
+ lib64icui18n76          aarch64  1:76.1-3                  main-release  1.1 M
+ lib64icuuc76            aarch64  1:76.1-3                  main-release  721 k
+ lib64idn2_0             aarch64  2.3.7-1                   main-release   55 k
+ lib64imaevm2            aarch64  1.3.2-16                  main-release   24 k
+ lib64jansson4           aarch64  2.14-2                    main-release   41 k
+ lib64json-c5            aarch64  0.18-1                    main-release   36 k
+ lib64k5crypto3          aarch64  1.21.3-7                  main-release   77 k
+ lib64kadm5srv_mit12     aarch64  1.21.3-7                  main-release   49 k
+ lib64kdb5_10            aarch64  1.21.3-7                  main-release   38 k
+ lib64keyutils1          aarch64  1.6.3-7                   main-release   14 k
+ lib64kmod2              aarch64  33-1                      main-release   48 k
+ lib64krad0              aarch64  1.21.3-7                  main-release   20 k
+ lib64krb5_3             aarch64  1.21.3-7                  main-release  262 k
+ lib64krb5support0       aarch64  1.21.3-7                  main-release   29 k
+ lib64ksba8              aarch64  1.6.7-1                   main-release  105 k
+ lib64lber               aarch64  2.6.10-1                  main-release   31 k
+ lib64ldap               aarch64  2.6.10-1                  main-release  150 k
+ lib64lmdb0              aarch64  0.9.31-2                  main-release   52 k
+ lib64lockdev1           aarch64  1.0.4-0.1.20111007git.13  main-release   13 k
+ lib64lua5.1             aarch64  5.1.5-1                   main-release   88 k
+ lib64lua5.4             aarch64  5.4.7-2                   main-release  224 k
+ lib64luajit-5.1-common  aarch64  2.1.0-4                   main-release   50 k
+ lib64luajit-5.1_2       aarch64  2.1.0-4                   main-release  253 k
+ lib64luv1               aarch64  1.48.0-1                  main-release   54 k
+ lib64lz4_1              aarch64  1.10.0-2                  main-release   62 k
+ lib64lzma5              aarch64  5.6.4-2                   main-release  123 k
+ lib64lzo2_2             aarch64  2.10-4                    main-release   57 k
+ lib64magic1             aarch64  5.45-1                    main-release   73 k
+ lib64mnl0               aarch64  1.0.5-1                   main-release   15 k
+ lib64modulemd2          aarch64  2.15.0-1                  main-release  131 k
+ lib64mount1             aarch64  1:2.39.4-2                main-release  110 k
+ lib64nettle8            aarch64  1:3.10-1                  main-release  153 k
+ lib64nghttp2_14         aarch64  1.63.0-1                  main-release   67 k
+ lib64npth0              aarch64  1.8-1                     main-release   14 k
+ lib64nsl3               aarch64  2.0.1-1                   main-release   17 k
+ lib64nss_myhostname2    aarch64  256.17-7                  main-release   61 k
+ lib64openssl-engines3   aarch64  3.5.5-2                   main-release  256 k
+ lib64p11-kit0           aarch64  0.25.5-4                  main-release  253 k
+ lib64pam_misc0          aarch64  1:1.6.1-9                 main-release   16 k
+ lib64pkgconf5           aarch64  2.3.0-1                   main-release   32 k
+ lib64popt0              aarch64  1:1.19-2                  main-release   29 k
+ lib64proc2_1            aarch64  4.0.5-1                   main-release   56 k
+ lib64pwquality1         aarch64  1.4.5-7                   main-release   16 k
+ lib64python3.11         aarch64  3.11.13-1                 main-release  1.3 M
+ lib64repo0              aarch64  1.18.1-1                  main-release   66 k
+ lib64rpm9               aarch64  2:4.17.0-22               main-release  183 k
+ lib64rpmbuild9          aarch64  2:4.17.0-22               main-release   77 k
+ lib64rpmio9             aarch64  2:4.17.0-22               main-release   90 k
+ lib64rpmsign9           aarch64  2:4.17.0-22               main-release   18 k
+ lib64sasl2              aarch64  2.1.28-9                  main-release   59 k
+ lib64seccomp2           aarch64  2.6.0-1                   main-release   53 k
+ lib64secret1_0          aarch64  0.21.7-5                  main-release  114 k
+ lib64semanage2          aarch64  1:3.6-2                   main-release   96 k
+ lib64sepol2             aarch64  1:3.6-1                   main-release  267 k
+ lib64smartcols1         aarch64  1:2.39.4-2                main-release   45 k
+ lib64solv1              aarch64  0.7.30-1                  main-release  261 k
+ lib64solvext1           aarch64  0.7.30-1                  main-release  108 k
+ lib64sqlite3_0          aarch64  3.47.2-2                  main-release  649 k
+ lib64ssh4               aarch64  1:0.10.6-6                main-release  202 k
+ lib64ssl3               aarch64  3.5.5-2                   main-release  578 k
+ lib64ssl_libressl48     aarch64  3.2.0-8                   main-release  124 k
+ lib64stdc++6            aarch64  14.3.0-4                  main-release  646 k
+ lib64subid5             aarch64  2:4.17.2-3                main-release   27 k
+ lib64tasn1_6            aarch64  4.19.0-1                  main-release   39 k
+ lib64tirpc3             aarch64  1.3.5-1                   main-release   76 k
+ lib64tree-sitter0       aarch64  0.25.2-1                  main-release   87 k
+ lib64udev1              aarch64  256.17-7                  main-release   93 k
+ lib64unibilium4         aarch64  2.1.1-1                   main-release   40 k
+ lib64unistring5         aarch64  1.3-1                     main-release  423 k
+ lib64usb1.0_0           aarch64  1.0.29-2                  main-release   54 k
+ lib64utf8proc3          aarch64  2.10.0-1                  main-release   66 k
+ lib64uuid1              aarch64  1:2.39.4-2                main-release   22 k
+ lib64uv1                aarch64  1.51.0-1                  main-release   89 k
+ lib64verto1             aarch64  0.3.2-1                   main-release   15 k
+ lib64xml2_2             aarch64  2.13.9-2                  main-release  525 k
+ lib64yaml0_2            aarch64  0.2.5-2                   main-release   50 k
+ lib64z1                 aarch64  1.3.2-1                   main-release   58 k
+ lib64zck1               aarch64  1.5.1-1                   main-release   44 k
+ lib64zstd1              aarch64  1.5.7-2                   main-release  347 k
+ libgpg-error-common     noarch   1.51-1                    main-release  102 k
+ libidn2-i18n            noarch   2.3.7-1                   main-release   35 k
+ libpwquality-common     aarch64  1.4.5-7                   main-release   61 k
+ libsolv                 aarch64  0.7.30-1                  main-release   71 k
+ libtirpc                aarch64  1.3.5-1                   main-release  8.0 k
+ locales                 aarch64  7:2.40-11.gitc8e10f.6     main-release  307 k
+ lockdev                 aarch64  1.0.4-0.1.20111007git.13  main-release   17 k
+ lrzsz                   aarch64  0.12.21-35                main-release   66 k
+ lua5.1                  aarch64  5.1.5-1                   main-release  189 k
+ lua5.1-lpeg             aarch64  1.1.0-2                   main-release   29 k
+ lua5.1-mpack            aarch64  1.0.12-1                  main-release   21 k
+ luajit                  aarch64  2.1.0-4                   main-release  262 k
+ neovim-data             noarch   0.11.6-2                  main-release  4.1 M
+ openssh                 aarch64  9.7p1-10                  main-release  453 k
+ openssh-clients         aarch64  9.7p1-10                  main-release  526 k
+ openssl                 aarch64  3.5.5-2                   main-release  527 k
+ p11-kit                 aarch64  0.25.5-4                  main-release  310 k
+ p11-kit-trust           aarch64  0.25.5-4                  main-release  117 k
+ pam                     aarch64  1:1.6.1-9                 main-release  465 k
+ pam_pwquality           aarch64  1.4.5-7                   main-release   16 k
+ pigz                    aarch64  2.8-1                     main-release   89 k
+ pinentry                aarch64  1.3.2-2                   main-release  108 k
+ pkgconf                 aarch64  2.3.0-1                   main-release   41 k
+ popt-data               noarch   1:1.19-2                  main-release   28 k
+ procps-ng               aarch64  4.0.5-1                   main-release  763 k
+ python3                 aarch64  3.11.13-1                 main-release   12 M
+ python3-dnf             noarch   4.22.0-5                  main-release  542 k
+ python3-gpg             aarch64  1.24.3-1                  main-release  260 k
+ python3-hawkey          aarch64  0.73.4-1                  main-release   79 k
+ python3-libcomps        aarch64  0.1.21-1                  main-release   41 k
+ python3-libdnf          aarch64  0.73.4-1                  main-release  669 k
+ python3-rpm             aarch64  2:4.17.0-22               main-release   62 k
+ rmt                     aarch64  0.4b47-2                  main-release   20 k
+ rootcerts               noarch   1:20250316.00-2           main-release  1.1 M
+ rosa-kernel-tools       noarch   1.0-9                     main-release   13 k
+ rosa-repos-keys         noarch   1:13-4                    main-release   11 k
+ rosa-repos-main         aarch64  1:13-4                    main-release   12 k
+ rosa-repos-pkgprefs     noarch   1:13-4                    main-release   10 k
+ rpm                     aarch64  2:4.17.0-22               main-release  518 k
+ rpm-helper              noarch   0.24.19-2                 main-release   21 k
+ rpm-rosa-setup          noarch   1.0-12.git0dfc1f          main-release   15 k
+ rpmsort                 aarch64  2.12-15                   main-release   11 k
+ run-parts               aarch64  1:5.17-1                  main-release   39 k
+ sed                     aarch64  4.9-4                     main-release  221 k
+ setserial               aarch64  2.17-26                   main-release   26 k
+ shadow-utils            aarch64  2:4.17.2-3                main-release  1.1 M
+ systemd-units           aarch64  256.17-7                  main-release  189 k
+ tar                     aarch64  1.35-2                    main-release  734 k
+ tcp_wrappers            aarch64  7.6-62                    main-release   84 k
+ udev                    aarch64  256.17-7                  main-release  1.3 M
+ util-linux              aarch64  1:2.39.4-2                main-release  2.7 M
+ xz                      aarch64  5.6.4-2                   main-release  447 k
+ zstd                    aarch64  1.5.7-2                   main-release  123 k
+
+Transaction Summary
+================================================================================
+Install  230 Packages
+
+Total size: 122 M
+Installed size: 723 M
+Downloading Packages:
+[SKIPPED] acl-2.3.2-4-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] bash-completion-2.15.0-1-rosa13.noarch.rpm: Already downloaded       
+[SKIPPED] binutils-2.43.1-6-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] bridge-utils-1.7.1-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] bzip2-1.0.8-4-rosa13.aarch64.rpm: Already downloaded                 
+[SKIPPED] chkconfig-1.26-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] cpio-2.15-2-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] cracklib-common-2.10.2-1-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] cracklib-dicts-2.10.2-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] dash-0.5.11.5-2-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] dbus-common-1.14.10-3-rosa13.noarch.rpm: Already downloaded          
+[SKIPPED] dbus-daemon-1.14.10-3-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] dbus-tools-1.14.10-3-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] deltarpm-3.6.5-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] dhcp-client-4.4.3P1-5-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] dhcp-common-4.4.3P1-5-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] diffutils-3.10-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] dnf-4.22.0-5-rosa13.noarch.rpm: Already downloaded                   
+[SKIPPED] dnf-conf-4.22.0-5-rosa13.noarch.rpm: Already downloaded              
+[SKIPPED] dracut-106-0.git57efb3.7-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] dtc-1.7.1-1-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] e2fsprogs-1.47.2-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] efivar-39-1-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] file-5.45-1-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] findutils-4.9.0-2-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] gawk-5.3.1-1-rosa13.aarch64.rpm: Already downloaded                  
+[SKIPPED] gnupg2-2.2.45-1-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] gnutls-locales-3.8.10-1-rosa13.noarch.rpm: Already downloaded        
+[SKIPPED] gptfdisk-1.0.10-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] grep-3.12-1-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] gzip-1.13-3-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] icu76-data-76.1-3-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] iproute2-6.11.0-3-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] iputils-20250605-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] kbd-2.6.4-4-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] kbd-legacy-2.6.4-4-rosa13.noarch.rpm: Already downloaded             
+[SKIPPED] kbd-misc-2.6.4-4-rosa13.noarch.rpm: Already downloaded               
+[SKIPPED] kmod-33-1-rosa13.aarch64.rpm: Already downloaded                     
+[SKIPPED] krb5-1.21.3-7-rosa13.aarch64.rpm: Already downloaded                 
+[SKIPPED] less-679-1-rosa13.aarch64.rpm: Already downloaded                    
+[SKIPPED] lib64archive13-3.8.5-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64argon2_1-20190702-3-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] lib64asm1-0.192-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64assuan9-3.0.1-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64blkid1-2.39.4-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64bpf1-1.5.0-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64bzip2_1-1.0.8-4-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64cares2-1.34.4-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64cbor0.11-0.11.0-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64comps0-0.1.21-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64crack2-2.10.2-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64crypto3-3.5.5-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64crypto_libressl46-3.2.0-8-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] lib64cryptsetup12-2.7.5-1-rosa13.aarch64.rpm: Already downloaded     
+[SKIPPED] lib64curl-libressl4-8.11.1-8-rosa13.aarch64.rpm: Already downloaded  
+[SKIPPED] lib64curl4-8.11.1-8-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64dbus-1_3-1.14.10-3-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64devmapper1.02-1.02.200-3-rosa13.aarch64.rpm: Already downloaded 
+[SKIPPED] lib64dnf2-0.73.4-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64dw1-0.192-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] lib64edit0-3.1-1.20240808.5-rosa13.aarch64.rpm: Already downloaded   
+[SKIPPED] lib64efivar1-39-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64elf1-0.192-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64event2.1_7-2.1.12-5-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] lib64event_core2.1_7-2.1.12-5-rosa13.aarch64.rpm: Already downloaded 
+[SKIPPED] lib64expat1-2.7.4-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64ext2fs2-1.47.2-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64fdisk1-2.39.4-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64fdt1-1.7.1-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64ffi8-3.4.6-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64fido2_1-1.14.0-2-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64fuse3_3-3.16.2-2-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64gcc1-14.3.0-4-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64gcrypt20-1.11.0-2-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64gdbm6-1.24-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64gdbm_compat4-1.24-1-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] lib64gio2.0_0-2.86.3-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64glib2.0_0-2.86.3-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64gmodule2.0_0-2.86.3-1-rosa13.aarch64.rpm: Already downloaded    
+[SKIPPED] lib64gmp10-6.3.0-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64gnutls30-3.8.10-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64gobject2.0_0-2.86.3-1-rosa13.aarch64.rpm: Already downloaded    
+[SKIPPED] lib64gpg-error0-1.51-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64gpgme11-1.24.3-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64gssapi_krb5_2-1.21.3-7-rosa13.aarch64.rpm: Already downloaded   
+[SKIPPED] lib64gssrpc4-1.21.3-7-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64hogweed6-3.10-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64icudata76-76.1-3-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64icui18n76-76.1-3-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64icuuc76-76.1-3-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64idn2_0-2.3.7-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64imaevm2-1.3.2-16-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64jansson4-2.14-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64json-c5-0.18-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64k5crypto3-1.21.3-7-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64kadm5srv_mit12-1.21.3-7-rosa13.aarch64.rpm: Already downloaded  
+[SKIPPED] lib64kdb5_10-1.21.3-7-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64keyutils1-1.6.3-7-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64kmod2-33-1-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] lib64krad0-1.21.3-7-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64krb5_3-1.21.3-7-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64krb5support0-1.21.3-7-rosa13.aarch64.rpm: Already downloaded    
+[SKIPPED] lib64ksba8-1.6.7-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64lber-2.6.10-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64ldap-2.6.10-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64lmdb0-0.9.31-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64lockdev1-1.0.4-0.1.20111007git.13-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] lib64lua5.1-5.1.5-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64lua5.4-5.4.7-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64luajit-5.1-common-2.1.0-4-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] lib64luajit-5.1_2-2.1.0-4-rosa13.aarch64.rpm: Already downloaded     
+[SKIPPED] lib64luv1-1.48.0-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64lz4_1-1.10.0-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64lzma5-5.6.4-2-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64lzo2_2-2.10-4-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64magic1-5.45-1-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64mnl0-1.0.5-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64modulemd2-2.15.0-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64mount1-2.39.4-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64nettle8-3.10-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64nghttp2_14-1.63.0-1-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] lib64npth0-1.8-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] lib64nsl3-2.0.1-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64nss_myhostname2-256.17-7-rosa13.aarch64.rpm: Already downloaded 
+[SKIPPED] lib64openssl-engines3-3.5.5-2-rosa13.aarch64.rpm: Already downloaded 
+[SKIPPED] lib64p11-kit0-0.25.5-4-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64pam_misc0-1.6.1-9-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64pkgconf5-2.3.0-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64popt0-1.19-2-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64proc2_1-4.0.5-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64pwquality1-1.4.5-7-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64python3.11-3.11.13-1-rosa13.aarch64.rpm: Already downloaded     
+[SKIPPED] lib64repo0-1.18.1-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64rpm9-4.17.0-22-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64rpmbuild9-4.17.0-22-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] lib64rpmio9-4.17.0-22-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64rpmsign9-4.17.0-22-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64sasl2-2.1.28-9-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64seccomp2-2.6.0-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64secret1_0-0.21.7-5-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64semanage2-3.6-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64sepol2-3.6-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64smartcols1-2.39.4-2-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] lib64solv1-0.7.30-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64solvext1-0.7.30-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64sqlite3_0-3.47.2-2-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64ssh4-0.10.6-6-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] lib64ssl3-3.5.5-2-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64ssl_libressl48-3.2.0-8-rosa13.aarch64.rpm: Already downloaded   
+[SKIPPED] lib64stdc++6-14.3.0-4-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64subid5-4.17.2-3-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64tasn1_6-4.19.0-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64tirpc3-1.3.5-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64tree-sitter0-0.25.2-1-rosa13.aarch64.rpm: Already downloaded    
+[SKIPPED] lib64udev1-256.17-7-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64unibilium4-2.1.1-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64unistring5-1.3-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] lib64usb1.0_0-1.0.29-2-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] lib64utf8proc3-2.10.0-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] lib64uuid1-2.39.4-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64uv1-1.51.0-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64verto1-0.3.2-1-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lib64xml2_2-2.13.9-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64yaml0_2-0.2.5-2-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] lib64z1-1.3.2-1-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] lib64zck1-1.5.1-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] lib64zstd1-1.5.7-2-rosa13.aarch64.rpm: Already downloaded            
+[SKIPPED] libgpg-error-common-1.51-1-rosa13.noarch.rpm: Already downloaded     
+[SKIPPED] libidn2-i18n-2.3.7-1-rosa13.noarch.rpm: Already downloaded           
+[SKIPPED] libpwquality-common-1.4.5-7-rosa13.aarch64.rpm: Already downloaded   
+[SKIPPED] libsolv-0.7.30-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] libtirpc-1.3.5-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] locales-2.40-11.gitc8e10f.6-rosa13.aarch64.rpm: Already downloaded   
+[SKIPPED] locales-en-2.40-11.gitc8e10f.6-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] lockdev-1.0.4-0.1.20111007git.13-rosa13.aarch64.rpm: Already downloaded
+[SKIPPED] lrzsz-0.12.21-35-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] lua5.1-5.1.5-1-rosa13.aarch64.rpm: Already downloaded                
+[SKIPPED] lua5.1-lpeg-1.1.0-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] lua5.1-mpack-1.0.12-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] luajit-2.1.0-4-rosa13.aarch64.rpm: Already downloaded                
+[SKIPPED] minicom-2.9-1-rosa13.aarch64.rpm: Already downloaded                 
+[SKIPPED] neovim-0.11.6-2-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] neovim-data-0.11.6-2-rosa13.noarch.rpm: Already downloaded           
+[SKIPPED] openssh-9.7p1-10-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] openssh-clients-9.7p1-10-rosa13.aarch64.rpm: Already downloaded      
+[SKIPPED] openssh-server-9.7p1-10-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] openssl-3.5.5-2-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] p11-kit-0.25.5-4-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] p11-kit-trust-0.25.5-4-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] pam-1.6.1-9-rosa13.aarch64.rpm: Already downloaded                   
+[SKIPPED] pam_pwquality-1.4.5-7-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] pigz-2.8-1-rosa13.aarch64.rpm: Already downloaded                    
+[SKIPPED] pinentry-1.3.2-2-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] pkgconf-2.3.0-1-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] popt-data-1.19-2-rosa13.noarch.rpm: Already downloaded               
+[SKIPPED] procps-ng-4.0.5-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] python3-3.11.13-1-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] python3-dnf-4.22.0-5-rosa13.noarch.rpm: Already downloaded           
+[SKIPPED] python3-gpg-1.24.3-1-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] python3-hawkey-0.73.4-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] python3-libcomps-0.1.21-1-rosa13.aarch64.rpm: Already downloaded     
+[SKIPPED] python3-libdnf-0.73.4-1-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] python3-rpm-4.17.0-22-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] rmt-0.4b47-2-rosa13.aarch64.rpm: Already downloaded                  
+[SKIPPED] rootcerts-20250316.00-2-rosa13.noarch.rpm: Already downloaded        
+[SKIPPED] rosa-kernel-tools-1.0-9-rosa13.noarch.rpm: Already downloaded        
+[SKIPPED] rosa-repos-13-4-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] rosa-repos-contrib-13-4-rosa13.aarch64.rpm: Already downloaded       
+[SKIPPED] rosa-repos-keys-13-4-rosa13.noarch.rpm: Already downloaded           
+[SKIPPED] rosa-repos-main-13-4-rosa13.aarch64.rpm: Already downloaded          
+[SKIPPED] rosa-repos-pkgprefs-13-4-rosa13.noarch.rpm: Already downloaded       
+[SKIPPED] rpm-4.17.0-22-rosa13.aarch64.rpm: Already downloaded                 
+[SKIPPED] rpm-helper-0.24.19-2-rosa13.noarch.rpm: Already downloaded           
+[SKIPPED] rpm-rosa-setup-1.0-12.git0dfc1f-rosa13.noarch.rpm: Already downloaded
+[SKIPPED] rpmsort-2.12-15-rosa13.aarch64.rpm: Already downloaded               
+[SKIPPED] run-parts-5.17-1-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] sed-4.9-4-rosa13.aarch64.rpm: Already downloaded                     
+[SKIPPED] setserial-2.17-26-rosa13.aarch64.rpm: Already downloaded             
+[SKIPPED] shadow-utils-4.17.2-3-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] systemd-256.17-7-rosa13.aarch64.rpm: Already downloaded              
+[SKIPPED] systemd-units-256.17-7-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] tar-1.35-2-rosa13.aarch64.rpm: Already downloaded                    
+[SKIPPED] tcp_wrappers-7.6-62-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] uboot-tools-2024.10-1-rosa13.aarch64.rpm: Already downloaded         
+[SKIPPED] udev-256.17-7-rosa13.aarch64.rpm: Already downloaded                 
+[SKIPPED] util-linux-2.39.4-2-rosa13.aarch64.rpm: Already downloaded           
+[SKIPPED] vim-minimal-9.2.0321-1-rosa13.aarch64.rpm: Already downloaded        
+[SKIPPED] xz-5.6.4-2-rosa13.aarch64.rpm: Already downloaded                    
+[SKIPPED] zstd-1.5.7-2-rosa13.aarch64.rpm: Already downloaded                  
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Running scriptlet: chkconfig-1.26-1.aarch64                               1/1 
+  Preparing        :                                                        1/1 
+  Installing       : lib64z1-1.3.2-1.aarch64                              1/230 
+  Installing       : lib64ssl3-3.5.5-2.aarch64                            2/230 
+  Installing       : lib64crypto3-3.5.5-2.aarch64                         3/230 
+  Installing       : lib64zstd1-1.5.7-2.aarch64                           4/230 
+  Installing       : lib64lzma5-5.6.4-2.aarch64                           5/230 
+  Installing       : lib64bzip2_1-1.0.8-4.aarch64                         6/230 
+  Installing       : lib64python3.11-3.11.13-1.aarch64                    7/230 
+  Installing       : lib64gcc1-14.3.0-4.aarch64                           8/230 
+  Installing       : lib64glib2.0_0-1:2.86.3-1.aarch64                    9/230 
+  Installing       : lib64sqlite3_0-3.47.2-2.aarch64                     10/230 
+  Installing       : lib64keyutils1-1.6.3-7.aarch64                      11/230 
+  Installing       : lib64blkid1-1:2.39.4-2.aarch64                      12/230 
+  Installing       : lib64ext2fs2-1.47.2-1.aarch64                       13/230 
+  Installing       : lib64stdc++6-14.3.0-4.aarch64                       14/230 
+  Installing       : lib64krb5support0-1.21.3-7.aarch64                  15/230 
+  Installing       : lib64k5crypto3-1.21.3-7.aarch64                     16/230 
+  Installing       : lib64uuid1-1:2.39.4-2.aarch64                       17/230 
+  Installing       : grep-3.12-1.aarch64                                 18/230 
+  Installing       : lib64udev1-256.17-7.aarch64                         19/230 
+  Installing       : lib64pam_misc0-1:1.6.1-9.aarch64                    20/230 
+  Installing       : lib64lua5.4-5.4.7-2.aarch64                         21/230 
+  Installing       : sed-4.9-4.aarch64                                   22/230 
+  Installing       : lib64smartcols1-1:2.39.4-2.aarch64                  23/230 
+  Installing       : lib64json-c5-0.18-1.aarch64                         24/230 
+  Installing       : lib64ffi8-3.4.6-1.aarch64                           25/230 
+  Installing       : lib64gobject2.0_0-1:2.86.3-1.aarch64                26/230 
+  Installing       : lib64expat1-2.7.4-1.aarch64                         27/230 
+  Installing       : lib64crypto_libressl46-3.2.0-8.aarch64              28/230 
+  Installing       : gawk-5.3.1-1.aarch64                                29/230 
+  Installing       : findutils-4.9.0-2.aarch64                           30/230 
+  Installing       : lib64p11-kit0-0.25.5-4.aarch64                      31/230 
+  Installing       : lib64mount1-1:2.39.4-2.aarch64                      32/230 
+  Installing       : bzip2-1.0.8-4.aarch64                               33/230 
+  Installing       : lib64dw1-0.192-1.aarch64                            34/230 
+  Installing       : lib64elf1-0.192-1.aarch64                           35/230 
+  Installing       : lib64asm1-0.192-1.aarch64                           36/230 
+  Installing       : xz-5.6.4-2.aarch64                                  37/230 
+  Installing       : lib64tasn1_6-4.19.0-1.aarch64                       38/230 
+  Installing       : p11-kit-0.25.5-4.aarch64                            39/230 
+  Installing       : lib64fdisk1-1:2.39.4-2.aarch64                      40/230 
+  Installing       : lib64zck1-1.5.1-1.aarch64                           41/230 
+  Installing       : lib64magic1-5.45-1.aarch64                          42/230 
+  Installing       : file-5.45-1.aarch64                                 43/230 
+  Installing       : systemd-units-256.17-7.aarch64                      44/230 
+  Installing       : lib64verto1-0.3.2-1.aarch64                         45/230 
+  Installing       : lib64uv1-1.51.0-1.aarch64                           46/230 
+  Installing       : lib64sepol2-1:3.6-1.aarch64                         47/230 
+  Installing       : lib64nghttp2_14-1.63.0-1.aarch64                    48/230 
+  Installing       : lib64nettle8-1:3.10-1.aarch64                       49/230 
+  Installing       : lib64lz4_1-1.10.0-2.aarch64                         50/230 
+  Installing       : zstd-1.5.7-2.aarch64                                51/230 
+  Installing       : lib64luajit-5.1-common-2.1.0-4.aarch64              52/230 
+  Installing       : lib64lua5.1-5.1.5-1.aarch64                         53/230 
+  Installing       : lua5.1-5.1.5-1.aarch64                              54/230 
+  Installing       : lib64gmp10-6.3.0-1.aarch64                          55/230 
+  Installing       : lib64gdbm6-1.24-1.aarch64                           56/230 
+  Installing       : lib64dbus-1_3-1.14.10-3.aarch64                     57/230 
+  Installing       : lib64cares2-1.34.4-1.aarch64                        58/230 
+  Installing       : bash-completion-2:2.15.0-1.noarch                   59/230 
+  Installing       : dbus-tools-1.14.10-3.aarch64                        60/230 
+  Installing       : lib64gdbm_compat4-1.24-1.aarch64                    61/230 
+  Installing       : lib64hogweed6-1:3.10-1.aarch64                      62/230 
+  Installing       : lua5.1-lpeg-1.1.0-2.aarch64                         63/230 
+  Installing       : lua5.1-mpack-1.0.12-1.aarch64                       64/230 
+  Installing       : lib64luajit-5.1_2-2.1.0-4.aarch64                   65/230 
+  Installing       : luajit-2.1.0-4.aarch64                              66/230 
+  Installing       : lib64luv1-1.48.0-1.aarch64                          67/230 
+  Installing       : less-679-1.aarch64                                  68/230 
+  Installing       : gzip-1.13-3.aarch64                                 69/230 
+  Installing       : lib64bpf1-2:1.5.0-1.aarch64                         70/230 
+  Installing       : lib64imaevm2-1.3.2-16.aarch64                       71/230 
+  Installing       : lib64ssl_libressl48-3.2.0-8.aarch64                 72/230 
+  Installing       : lib64devmapper1.02-1.02.200-3.aarch64               73/230 
+  Installing       : lib64usb1.0_0-1.0.29-2.aarch64                      74/230 
+  Installing       : rmt-0.4b47-2.aarch64                                75/230 
+  Installing       : cpio-2.15-2.aarch64                                 76/230 
+  Installing       : lib64gmodule2.0_0-1:2.86.3-1.aarch64                77/230 
+  Installing       : lib64gio2.0_0-1:2.86.3-1.aarch64                    78/230 
+  Installing       : lib64kmod2-33-1.aarch64                             79/230 
+  Installing       : lib64openssl-engines3-3.5.5-2.aarch64               80/230 
+  Installing       : pigz-2.8-1.aarch64                                  81/230 
+  Installing       : vim-minimal-2:9.2.0321-1.aarch64                    82/230 
+  Running scriptlet: vim-minimal-2:9.2.0321-1.aarch64                    82/230 
+  Installing       : tar-1.35-2.aarch64                                  83/230 
+  Installing       : setserial-2.17-26.aarch64                           84/230 
+  Installing       : run-parts-1:5.17-1.aarch64                          85/230 
+  Installing       : rosa-repos-keys-1:13-4.noarch                       86/230 
+  Installing       : popt-data-1:1.19-2.noarch                           87/230 
+  Installing       : lib64popt0-1:1.19-2.aarch64                         88/230 
+  Installing       : gptfdisk-1.0.10-1.aarch64                           89/230 
+  Installing       : neovim-data-0.11.6-2.noarch                         90/230 
+  Installing       : lrzsz-0.12.21-35.aarch64                            91/230 
+  Installing       : libtirpc-1.3.5-1.aarch64                            92/230 
+  Installing       : libpwquality-common-1.4.5-7.aarch64                 93/230 
+  Installing       : libidn2-i18n-2.3.7-1.noarch                         94/230 
+  Installing       : libgpg-error-common-1.51-1.noarch                   95/230 
+  Installing       : lib64gpg-error0-1.51-1.aarch64                      96/230 
+  Installing       : lib64gcrypt20-1.11.0-2.aarch64                      97/230 
+  Installing       : lib64rpmio9-2:4.17.0-22.aarch64                     98/230 
+  Installing       : lib64rpm9-2:4.17.0-22.aarch64                       99/230 
+  Installing       : lib64assuan9-3.0.1-1.aarch64                       100/230 
+  Installing       : deltarpm-3.6.5-1.aarch64                           101/230 
+  Installing       : lib64rpmbuild9-2:4.17.0-22.aarch64                 102/230 
+  Installing       : lib64rpmsign9-2:4.17.0-22.aarch64                  103/230 
+  Installing       : rpmsort-2.12-15.aarch64                            104/230 
+  Installing       : rosa-kernel-tools-1.0-9.noarch                     105/230 
+  Installing       : lib64secret1_0-0.21.7-5.aarch64                    106/230 
+  Installing       : pinentry-1.3.2-2.aarch64                           107/230 
+  Installing       : lib64ksba8-1.6.7-1.aarch64                         108/230 
+  Installing       : lib64yaml0_2-0.2.5-2.aarch64                       109/230 
+  Installing       : lib64modulemd2-2.15.0-1.aarch64                    110/230 
+  Installing       : lib64utf8proc3-2.10.0-1.aarch64                    111/230 
+  Installing       : lib64unistring5-1.3-1.aarch64                      112/230 
+  Installing       : lib64idn2_0-2.3.7-1.aarch64                        113/230 
+  Installing       : lib64unibilium4-2.1.1-1.aarch64                    114/230 
+  Installing       : lib64tree-sitter0-0.25.2-1.aarch64                 115/230 
+  Installing       : lib64seccomp2-2.6.0-1.aarch64                      116/230 
+  Installing       : lib64sasl2-2.1.28-9.aarch64                        117/230 
+  Installing       : lib64proc2_1-4.0.5-1.aarch64                       118/230 
+  Installing       : procps-ng-4.0.5-1.aarch64                          119/230 
+  Installing       : lib64pkgconf5-2.3.0-1.aarch64                      120/230 
+  Installing       : pkgconf-2.3.0-1.aarch64                            121/230 
+  Installing       : kmod-33-1.aarch64                                  122/230 
+  Installing       : lib64nss_myhostname2-256.17-7.aarch64              123/230 
+  Running scriptlet: lib64nss_myhostname2-256.17-7.aarch64              123/230 
+  Installing       : lib64npth0-1.8-1.aarch64                           124/230 
+  Installing       : lib64mnl0-1.0.5-1.aarch64                          125/230 
+  Installing       : lib64lzo2_2-2.10-4.aarch64                         126/230 
+  Installing       : lib64archive13-3.8.5-1.aarch64                     127/230 
+  Installing       : lib64lockdev1-1.0.4-0.1.20111007git.13.aarch64     128/230 
+  Installing       : lib64lmdb0-0.9.31-2.aarch64                        129/230 
+  Installing       : lib64gssapi_krb5_2-1.21.3-7.aarch64                130/230 
+  Installing       : lib64gssrpc4-1.21.3-7.aarch64                      131/230 
+  Installing       : lib64kadm5srv_mit12-1.21.3-7.aarch64               132/230 
+  Installing       : lib64kdb5_10-1.21.3-7.aarch64                      133/230 
+  Installing       : lib64krad0-1.21.3-7.aarch64                        134/230 
+  Installing       : lib64krb5_3-1.21.3-7.aarch64                       135/230 
+  Installing       : krb5-1.21.3-7.aarch64                              136/230 
+  Installing       : lib64tirpc3-1.3.5-1.aarch64                        137/230 
+  Installing       : lib64nsl3-2.0.1-1.aarch64                          138/230 
+  Installing       : python3-3.11.13-1.aarch64                          139/230 
+  Installing       : lib64semanage2-1:3.6-2.aarch64                     140/230 
+  Installing       : lib64ssh4-1:0.10.6-6.aarch64                       141/230 
+  Installing       : lib64subid5-2:4.17.2-3.aarch64                     142/230 
+  Installing       : tcp_wrappers-7.6-62.aarch64                        143/230 
+  Installing       : lib64jansson4-2.14-2.aarch64                       144/230 
+  Installing       : binutils-2.43.1-6.aarch64                          145/230 
+  Installing       : lib64fuse3_3-3.16.2-2.aarch64                      146/230 
+  Installing       : lib64fdt1-1.7.1-1.aarch64                          147/230 
+  Installing       : dtc-1.7.1-1.aarch64                                148/230 
+  Installing       : lib64event_core2.1_7-2.1.12-5.aarch64              149/230 
+  Installing       : lib64event2.1_7-2.1.12-5.aarch64                   150/230 
+  Installing       : lib64lber-2.6.10-1.aarch64                         151/230 
+  Installing       : lib64ldap-2.6.10-1.aarch64                         152/230 
+  Installing       : lib64efivar1-1:39-1.aarch64                        153/230 
+  Installing       : efivar-1:39-1.aarch64                              154/230 
+  Installing       : lib64edit0-3.1-1.20240808.5.aarch64                155/230 
+  Installing       : lib64cbor0.11-0.11.0-1.aarch64                     156/230 
+  Installing       : lib64fido2_1-1.14.0-2.aarch64                      157/230 
+  Installing       : openssh-9.7p1-10.aarch64                           158/230 
+  Installing       : openssh-clients-9.7p1-10.aarch64                   159/230 
+  Installing       : lib64argon2_1-20190702-3.aarch64                   160/230 
+  Installing       : lib64cryptsetup12-2.7.5-1.aarch64                  161/230 
+  Installing       : kbd-misc-2.6.4-4.noarch                            162/230 
+  Installing       : kbd-legacy-2.6.4-4.noarch                          163/230 
+  Installing       : icu76-data-1:76.1-3.aarch64                        164/230 
+  Installing       : lib64icudata76-1:76.1-3.aarch64                    165/230 
+  Installing       : lib64icuuc76-1:76.1-3.aarch64                      166/230 
+  Installing       : lib64icui18n76-1:76.1-3.aarch64                    167/230 
+  Installing       : lib64xml2_2-2.13.9-2.aarch64                       168/230 
+  Installing       : lib64solvext1-0.7.30-1.aarch64                     169/230 
+  Installing       : lib64solv1-0.7.30-1.aarch64                        170/230 
+  Installing       : libsolv-0.7.30-1.aarch64                           171/230 
+  Installing       : lib64comps0-0.1.21-1.aarch64                       172/230 
+  Installing       : python3-libcomps-0.1.21-1.aarch64                  173/230 
+  Installing       : gnutls-locales-3.8.10-1.noarch                     174/230 
+  Installing       : lib64gnutls30-3.8.10-1.aarch64                     175/230 
+  Installing       : uboot-tools-2024.10-1.aarch64                      176/230 
+  Installing       : diffutils-3.10-1.aarch64                           177/230 
+  Installing       : dhcp-common-3:4.4.3P1-5.aarch64                    178/230 
+  Installing       : cracklib-common-2.10.2-1.aarch64                   179/230 
+  Installing       : lib64crack2-2.10.2-1.aarch64                       180/230 
+  Installing       : cracklib-dicts-2.10.2-1.aarch64                    181/230 
+  Installing       : lib64pwquality1-1.4.5-7.aarch64                    182/230 
+  Installing       : pam_pwquality-1.4.5-7.aarch64                      183/230 
+  Installing       : bridge-utils-1.7.1-1.aarch64                       184/230 
+  Installing       : acl-2.3.2-4.aarch64                                185/230 
+  Installing       : lib64curl4-1:8.11.1-8.aarch64                      186/230 
+  Installing       : openssl-3.5.5-2.aarch64                            187/230 
+  Installing       : chkconfig-1.26-1.aarch64                           188/230 
+  Installing       : p11-kit-trust-0.25.5-4.aarch64                     189/230 
+  Running scriptlet: p11-kit-trust-0.25.5-4.aarch64                     189/230 
+  Installing       : rootcerts-1:20250316.00-2.noarch                   190/230 
+  Running scriptlet: rootcerts-1:20250316.00-2.noarch                   190/230 
+  Installing       : kbd-2.6.4-4.aarch64                                191/230 
+  Installing       : shadow-utils-2:4.17.2-3.aarch64                    192/230 
+  Installing       : pam-1:1.6.1-9.aarch64                              193/230 
+  Installing       : util-linux-1:2.39.4-2.aarch64                      194/230 
+  Installing       : udev-256.17-7.aarch64                              195/230 
+  Running scriptlet: udev-256.17-7.aarch64                              195/230 
+  Installing       : dbus-common-1.14.10-3.noarch                       196/230 
+  Running scriptlet: dbus-common-1.14.10-3.noarch                       196/230 
+  Installing       : dbus-daemon-1.14.10-3.aarch64                      197/230 
+  Running scriptlet: dbus-daemon-1.14.10-3.aarch64                      197/230 
+  Running scriptlet: systemd-256.17-7.aarch64                           198/230 
+  Installing       : systemd-256.17-7.aarch64                           198/230 
+  Running scriptlet: systemd-256.17-7.aarch64                           198/230 
+Creating group 'kvm' with GID 496.
+Creating group 'render' with GID 495.
+Creating group 'sgx' with GID 494.
+Creating group 'systemd-oom' with GID 493.
+Creating user 'systemd-oom' (systemd Userspace OOM Killer) with UID 493 and GID 493.
+
+  Installing       : rpm-rosa-setup-1.0-12.git0dfc1f.noarch             199/230 
+  Installing       : rpm-2:4.17.0-22.aarch64                            200/230 
+  Installing       : rpm-helper-0.24.19-2.noarch                        201/230 
+  Installing       : rosa-repos-main-1:13-4.aarch64                     202/230 
+  Running scriptlet: rosa-repos-main-1:13-4.aarch64                     202/230 
+  Installing       : rosa-repos-contrib-1:13-4.aarch64                  203/230 
+  Installing       : dash-0.5.11.5-2.aarch64                            204/230 
+  Running scriptlet: dash-0.5.11.5-2.aarch64                            204/230 
+  Running scriptlet: lockdev-1.0.4-0.1.20111007git.13.aarch64           205/230 
+  Installing       : lockdev-1.0.4-0.1.20111007git.13.aarch64           205/230 
+  Running scriptlet: lockdev-1.0.4-0.1.20111007git.13.aarch64           205/230 
+Failed to read 'lockdev': No such file or directory
+
+  Installing       : locales-7:2.40-11.gitc8e10f.6.aarch64              206/230 
+  Running scriptlet: locales-7:2.40-11.gitc8e10f.6.aarch64              206/230 
+  Installing       : python3-rpm-2:4.17.0-22.aarch64                    207/230 
+  Installing       : dhcp-client-3:4.4.3P1-5.aarch64                    208/230 
+  Running scriptlet: dhcp-client-3:4.4.3P1-5.aarch64                    208/230 
+  Installing       : dnf-conf-4.22.0-5.noarch                           209/230 
+  Installing       : e2fsprogs-1.47.2-1.aarch64                         210/230 
+  Installing       : dracut-106-0.git57efb3.7.aarch64                   211/230 
+  Installing       : rosa-repos-pkgprefs-1:13-4.noarch                  212/230 
+  Installing       : gnupg2-2.2.45-1.aarch64                            213/230 
+  Running scriptlet: gnupg2-2.2.45-1.aarch64                            213/230 
+Created symlink '/etc/systemd/user/sockets.target.wants/dirmngr.socket' → '/usr/lib/systemd/user/dirmngr.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket' → '/usr/lib/systemd/user/gpg-agent-browser.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket' → '/usr/lib/systemd/user/gpg-agent-extra.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket' → '/usr/lib/systemd/user/gpg-agent-ssh.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent.socket' → '/usr/lib/systemd/user/gpg-agent.socket'.
+
+  Installing       : lib64gpgme11-1.24.3-1.aarch64                      214/230 
+  Installing       : python3-gpg-1.24.3-1.aarch64                       215/230 
+  Running scriptlet: iputils-20250605-1.aarch64                         216/230 
+  Installing       : iputils-20250605-1.aarch64                         216/230 
+  Running scriptlet: iputils-20250605-1.aarch64                         216/230 
+net.ipv4.ping_group_range = 492 492
+
+  Installing       : lib64curl-libressl4-1:8.11.1-8.aarch64             217/230 
+  Installing       : lib64repo0-1.18.1-1.aarch64                        218/230 
+  Installing       : lib64dnf2-0.73.4-1.aarch64                         219/230 
+  Installing       : python3-libdnf-0.73.4-1.aarch64                    220/230 
+  Installing       : python3-hawkey-0.73.4-1.aarch64                    221/230 
+  Installing       : python3-dnf-4.22.0-5.noarch                        222/230 
+  Installing       : dnf-4.22.0-5.noarch                                223/230 
+  Installing       : iproute2-6.11.0-3.aarch64                          224/230 
+  Installing       : rosa-repos-1:13-4.aarch64                          225/230 
+  Installing       : locales-en-7:2.40-11.gitc8e10f.6.aarch64           226/230 
+  Running scriptlet: locales-en-7:2.40-11.gitc8e10f.6.aarch64           226/230 
+  Installing       : minicom-2.9-1.aarch64                              227/230 
+  Installing       : openssh-server-9.7p1-10.aarch64                    228/230 
+  Running scriptlet: openssh-server-9.7p1-10.aarch64                    228/230 
+Creating group 'sshd' with GID 490.
+Creating user 'sshd' (OpenSSH daemon) with UID 490 and GID 490.
+
+  Installing       : kernel-6.1-rockchip-6.1.115-1.aarch64              229/230 
+  Installing       : neovim-0.11.6-2.aarch64                            230/230 
+  Running scriptlet: openssh-9.7p1-10.aarch64                           230/230 
+  Running scriptlet: util-linux-1:2.39.4-2.aarch64                      230/230 
+Created symlink '/etc/systemd/system/timers.target.wants/fstrim.timer' → '/usr/lib/systemd/system/fstrim.timer'.
+
+  Running scriptlet: systemd-256.17-7.aarch64                           230/230 
+Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-udev-load-credentials.service' → '/usr/lib/systemd/system/systemd-udev-load-credentials.service'.
+Created symlink '/etc/systemd/system/sockets.target.wants/systemd-mountfsd.socket' → '/usr/lib/systemd/system/systemd-mountfsd.socket'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/remote-cryptsetup.target' → '/usr/lib/systemd/system/remote-cryptsetup.target'.
+Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-network-generator.service' → '/usr/lib/systemd/system/systemd-network-generator.service'.
+Created symlink '/etc/systemd/system/getty.target.wants/getty@tty1.service' → '/usr/lib/systemd/system/getty@.service'.
+Created symlink '/etc/systemd/system/dbus.service' → '/usr/lib/systemd/system/dbus-daemon.service'.
+Created symlink '/etc/systemd/system/messagebus.service' → '/usr/lib/systemd/system/dbus-daemon.service'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/dbus-daemon.service' → '/usr/lib/systemd/system/dbus-daemon.service'.
+Created symlink '/etc/systemd/system/sockets.target.wants/systemd-nsresourced.socket' → '/usr/lib/systemd/system/systemd-nsresourced.socket'.
+Created symlink '/etc/systemd/system/dbus-org.freedesktop.resolve1.service' → '/usr/lib/systemd/system/systemd-resolved.service'.
+Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-resolved.service' → '/usr/lib/systemd/system/systemd-resolved.service'.
+Created symlink '/etc/systemd/system/sockets.target.wants/systemd-journald-audit.socket' → '/usr/lib/systemd/system/systemd-journald-audit.socket'.
+Created symlink '/etc/systemd/system/systemd-journald.service.wants/systemd-journald-audit.socket' → '/usr/lib/systemd/system/systemd-journald-audit.socket'.
+Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-pstore.service' → '/usr/lib/systemd/system/systemd-pstore.service'.
+Created symlink '/etc/systemd/system/ctrl-alt-del.target' → '/usr/lib/systemd/system/reboot.target'.
+Created symlink '/etc/systemd/system/sockets.target.wants/dbus.socket' → '/usr/lib/systemd/system/dbus.socket'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/remote-fs.target' → '/usr/lib/systemd/system/remote-fs.target'.
+Created symlink '/etc/systemd/system/timers.target.wants/dnf-makecache.timer' → '/usr/lib/systemd/system/dnf-makecache.timer'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/machines.target' → '/usr/lib/systemd/system/machines.target'.
+Created symlink '/etc/systemd/user/dbus.service' → '/usr/lib/systemd/user/dbus-daemon.service'.
+Created symlink '/etc/systemd/user/basic.target.wants/systemd-tmpfiles-setup.service' → '/usr/lib/systemd/user/systemd-tmpfiles-setup.service'.
+Created symlink '/etc/systemd/user/sockets.target.wants/dbus.socket' → '/usr/lib/systemd/user/dbus.socket'.
+Created symlink '/etc/systemd/user/timers.target.wants/systemd-tmpfiles-clean.timer' → '/usr/lib/systemd/user/systemd-tmpfiles-clean.timer'.
+
+  Running scriptlet: rpm-2:4.17.0-22.aarch64                            230/230 
+  Running scriptlet: kernel-6.1-rockchip-6.1.115-1.aarch64              230/230 
+/sbin/dracut: line 1076: /sys/module/firmware_class/parameters/path: No such file or directory
+dracut[E]: Module 'systemd-cryptsetup' depends on module 'dm', which can't be installed
+dracut[E]: Module 'crypt' depends on module 'dm', which can't be installed
+
+  Running scriptlet: neovim-0.11.6-2.aarch64                            230/230 
+Running in container; no need to (re)generate initramfs — it's not used in containers.
+To force (re)generating initramfs run:
+# env SKIP_GEN=0 initramfs-regen
+and/or add SKIP_GEN=0 to /etc/initramfs-regen.conf to make it permanent.
+
+
+=============================================================================
+     A system reboot is required after the update process completes!
+=============================================================================
+
+
+Installed:
+  acl-2.3.2-4.aarch64                                                           
+  bash-completion-2:2.15.0-1.noarch                                             
+  binutils-2.43.1-6.aarch64                                                     
+  bridge-utils-1.7.1-1.aarch64                                                  
+  bzip2-1.0.8-4.aarch64                                                         
+  chkconfig-1.26-1.aarch64                                                      
+  cpio-2.15-2.aarch64                                                           
+  cracklib-common-2.10.2-1.aarch64                                              
+  cracklib-dicts-2.10.2-1.aarch64                                               
+  dash-0.5.11.5-2.aarch64                                                       
+  dbus-common-1.14.10-3.noarch                                                  
+  dbus-daemon-1.14.10-3.aarch64                                                 
+  dbus-tools-1.14.10-3.aarch64                                                  
+  deltarpm-3.6.5-1.aarch64                                                      
+  dhcp-client-3:4.4.3P1-5.aarch64                                               
+  dhcp-common-3:4.4.3P1-5.aarch64                                               
+  diffutils-3.10-1.aarch64                                                      
+  dnf-4.22.0-5.noarch                                                           
+  dnf-conf-4.22.0-5.noarch                                                      
+  dracut-106-0.git57efb3.7.aarch64                                              
+  dtc-1.7.1-1.aarch64                                                           
+  e2fsprogs-1.47.2-1.aarch64                                                    
+  efivar-1:39-1.aarch64                                                         
+  file-5.45-1.aarch64                                                           
+  findutils-4.9.0-2.aarch64                                                     
+  gawk-5.3.1-1.aarch64                                                          
+  gnupg2-2.2.45-1.aarch64                                                       
+  gnutls-locales-3.8.10-1.noarch                                                
+  gptfdisk-1.0.10-1.aarch64                                                     
+  grep-3.12-1.aarch64                                                           
+  gzip-1.13-3.aarch64                                                           
+  icu76-data-1:76.1-3.aarch64                                                   
+  iproute2-6.11.0-3.aarch64                                                     
+  iputils-20250605-1.aarch64                                                    
+  kbd-2.6.4-4.aarch64                                                           
+  kbd-legacy-2.6.4-4.noarch                                                     
+  kbd-misc-2.6.4-4.noarch                                                       
+  kernel-6.1-rockchip-6.1.115-1.aarch64                                         
+  kmod-33-1.aarch64                                                             
+  krb5-1.21.3-7.aarch64                                                         
+  less-679-1.aarch64                                                            
+  lib64archive13-3.8.5-1.aarch64                                                
+  lib64argon2_1-20190702-3.aarch64                                              
+  lib64asm1-0.192-1.aarch64                                                     
+  lib64assuan9-3.0.1-1.aarch64                                                  
+  lib64blkid1-1:2.39.4-2.aarch64                                                
+  lib64bpf1-2:1.5.0-1.aarch64                                                   
+  lib64bzip2_1-1.0.8-4.aarch64                                                  
+  lib64cares2-1.34.4-1.aarch64                                                  
+  lib64cbor0.11-0.11.0-1.aarch64                                                
+  lib64comps0-0.1.21-1.aarch64                                                  
+  lib64crack2-2.10.2-1.aarch64                                                  
+  lib64crypto3-3.5.5-2.aarch64                                                  
+  lib64crypto_libressl46-3.2.0-8.aarch64                                        
+  lib64cryptsetup12-2.7.5-1.aarch64                                             
+  lib64curl-libressl4-1:8.11.1-8.aarch64                                        
+  lib64curl4-1:8.11.1-8.aarch64                                                 
+  lib64dbus-1_3-1.14.10-3.aarch64                                               
+  lib64devmapper1.02-1.02.200-3.aarch64                                         
+  lib64dnf2-0.73.4-1.aarch64                                                    
+  lib64dw1-0.192-1.aarch64                                                      
+  lib64edit0-3.1-1.20240808.5.aarch64                                           
+  lib64efivar1-1:39-1.aarch64                                                   
+  lib64elf1-0.192-1.aarch64                                                     
+  lib64event2.1_7-2.1.12-5.aarch64                                              
+  lib64event_core2.1_7-2.1.12-5.aarch64                                         
+  lib64expat1-2.7.4-1.aarch64                                                   
+  lib64ext2fs2-1.47.2-1.aarch64                                                 
+  lib64fdisk1-1:2.39.4-2.aarch64                                                
+  lib64fdt1-1.7.1-1.aarch64                                                     
+  lib64ffi8-3.4.6-1.aarch64                                                     
+  lib64fido2_1-1.14.0-2.aarch64                                                 
+  lib64fuse3_3-3.16.2-2.aarch64                                                 
+  lib64gcc1-14.3.0-4.aarch64                                                    
+  lib64gcrypt20-1.11.0-2.aarch64                                                
+  lib64gdbm6-1.24-1.aarch64                                                     
+  lib64gdbm_compat4-1.24-1.aarch64                                              
+  lib64gio2.0_0-1:2.86.3-1.aarch64                                              
+  lib64glib2.0_0-1:2.86.3-1.aarch64                                             
+  lib64gmodule2.0_0-1:2.86.3-1.aarch64                                          
+  lib64gmp10-6.3.0-1.aarch64                                                    
+  lib64gnutls30-3.8.10-1.aarch64                                                
+  lib64gobject2.0_0-1:2.86.3-1.aarch64                                          
+  lib64gpg-error0-1.51-1.aarch64                                                
+  lib64gpgme11-1.24.3-1.aarch64                                                 
+  lib64gssapi_krb5_2-1.21.3-7.aarch64                                           
+  lib64gssrpc4-1.21.3-7.aarch64                                                 
+  lib64hogweed6-1:3.10-1.aarch64                                                
+  lib64icudata76-1:76.1-3.aarch64                                               
+  lib64icui18n76-1:76.1-3.aarch64                                               
+  lib64icuuc76-1:76.1-3.aarch64                                                 
+  lib64idn2_0-2.3.7-1.aarch64                                                   
+  lib64imaevm2-1.3.2-16.aarch64                                                 
+  lib64jansson4-2.14-2.aarch64                                                  
+  lib64json-c5-0.18-1.aarch64                                                   
+  lib64k5crypto3-1.21.3-7.aarch64                                               
+  lib64kadm5srv_mit12-1.21.3-7.aarch64                                          
+  lib64kdb5_10-1.21.3-7.aarch64                                                 
+  lib64keyutils1-1.6.3-7.aarch64                                                
+  lib64kmod2-33-1.aarch64                                                       
+  lib64krad0-1.21.3-7.aarch64                                                   
+  lib64krb5_3-1.21.3-7.aarch64                                                  
+  lib64krb5support0-1.21.3-7.aarch64                                            
+  lib64ksba8-1.6.7-1.aarch64                                                    
+  lib64lber-2.6.10-1.aarch64                                                    
+  lib64ldap-2.6.10-1.aarch64                                                    
+  lib64lmdb0-0.9.31-2.aarch64                                                   
+  lib64lockdev1-1.0.4-0.1.20111007git.13.aarch64                                
+  lib64lua5.1-5.1.5-1.aarch64                                                   
+  lib64lua5.4-5.4.7-2.aarch64                                                   
+  lib64luajit-5.1-common-2.1.0-4.aarch64                                        
+  lib64luajit-5.1_2-2.1.0-4.aarch64                                             
+  lib64luv1-1.48.0-1.aarch64                                                    
+  lib64lz4_1-1.10.0-2.aarch64                                                   
+  lib64lzma5-5.6.4-2.aarch64                                                    
+  lib64lzo2_2-2.10-4.aarch64                                                    
+  lib64magic1-5.45-1.aarch64                                                    
+  lib64mnl0-1.0.5-1.aarch64                                                     
+  lib64modulemd2-2.15.0-1.aarch64                                               
+  lib64mount1-1:2.39.4-2.aarch64                                                
+  lib64nettle8-1:3.10-1.aarch64                                                 
+  lib64nghttp2_14-1.63.0-1.aarch64                                              
+  lib64npth0-1.8-1.aarch64                                                      
+  lib64nsl3-2.0.1-1.aarch64                                                     
+  lib64nss_myhostname2-256.17-7.aarch64                                         
+  lib64openssl-engines3-3.5.5-2.aarch64                                         
+  lib64p11-kit0-0.25.5-4.aarch64                                                
+  lib64pam_misc0-1:1.6.1-9.aarch64                                              
+  lib64pkgconf5-2.3.0-1.aarch64                                                 
+  lib64popt0-1:1.19-2.aarch64                                                   
+  lib64proc2_1-4.0.5-1.aarch64                                                  
+  lib64pwquality1-1.4.5-7.aarch64                                               
+  lib64python3.11-3.11.13-1.aarch64                                             
+  lib64repo0-1.18.1-1.aarch64                                                   
+  lib64rpm9-2:4.17.0-22.aarch64                                                 
+  lib64rpmbuild9-2:4.17.0-22.aarch64                                            
+  lib64rpmio9-2:4.17.0-22.aarch64                                               
+  lib64rpmsign9-2:4.17.0-22.aarch64                                             
+  lib64sasl2-2.1.28-9.aarch64                                                   
+  lib64seccomp2-2.6.0-1.aarch64                                                 
+  lib64secret1_0-0.21.7-5.aarch64                                               
+  lib64semanage2-1:3.6-2.aarch64                                                
+  lib64sepol2-1:3.6-1.aarch64                                                   
+  lib64smartcols1-1:2.39.4-2.aarch64                                            
+  lib64solv1-0.7.30-1.aarch64                                                   
+  lib64solvext1-0.7.30-1.aarch64                                                
+  lib64sqlite3_0-3.47.2-2.aarch64                                               
+  lib64ssh4-1:0.10.6-6.aarch64                                                  
+  lib64ssl3-3.5.5-2.aarch64                                                     
+  lib64ssl_libressl48-3.2.0-8.aarch64                                           
+  lib64stdc++6-14.3.0-4.aarch64                                                 
+  lib64subid5-2:4.17.2-3.aarch64                                                
+  lib64tasn1_6-4.19.0-1.aarch64                                                 
+  lib64tirpc3-1.3.5-1.aarch64                                                   
+  lib64tree-sitter0-0.25.2-1.aarch64                                            
+  lib64udev1-256.17-7.aarch64                                                   
+  lib64unibilium4-2.1.1-1.aarch64                                               
+  lib64unistring5-1.3-1.aarch64                                                 
+  lib64usb1.0_0-1.0.29-2.aarch64                                                
+  lib64utf8proc3-2.10.0-1.aarch64                                               
+  lib64uuid1-1:2.39.4-2.aarch64                                                 
+  lib64uv1-1.51.0-1.aarch64                                                     
+  lib64verto1-0.3.2-1.aarch64                                                   
+  lib64xml2_2-2.13.9-2.aarch64                                                  
+  lib64yaml0_2-0.2.5-2.aarch64                                                  
+  lib64z1-1.3.2-1.aarch64                                                       
+  lib64zck1-1.5.1-1.aarch64                                                     
+  lib64zstd1-1.5.7-2.aarch64                                                    
+  libgpg-error-common-1.51-1.noarch                                             
+  libidn2-i18n-2.3.7-1.noarch                                                   
+  libpwquality-common-1.4.5-7.aarch64                                           
+  libsolv-0.7.30-1.aarch64                                                      
+  libtirpc-1.3.5-1.aarch64                                                      
+  locales-7:2.40-11.gitc8e10f.6.aarch64                                         
+  locales-en-7:2.40-11.gitc8e10f.6.aarch64                                      
+  lockdev-1.0.4-0.1.20111007git.13.aarch64                                      
+  lrzsz-0.12.21-35.aarch64                                                      
+  lua5.1-5.1.5-1.aarch64                                                        
+  lua5.1-lpeg-1.1.0-2.aarch64                                                   
+  lua5.1-mpack-1.0.12-1.aarch64                                                 
+  luajit-2.1.0-4.aarch64                                                        
+  minicom-2.9-1.aarch64                                                         
+  neovim-0.11.6-2.aarch64                                                       
+  neovim-data-0.11.6-2.noarch                                                   
+  openssh-9.7p1-10.aarch64                                                      
+  openssh-clients-9.7p1-10.aarch64                                              
+  openssh-server-9.7p1-10.aarch64                                               
+  openssl-3.5.5-2.aarch64                                                       
+  p11-kit-0.25.5-4.aarch64                                                      
+  p11-kit-trust-0.25.5-4.aarch64                                                
+  pam-1:1.6.1-9.aarch64                                                         
+  pam_pwquality-1.4.5-7.aarch64                                                 
+  pigz-2.8-1.aarch64                                                            
+  pinentry-1.3.2-2.aarch64                                                      
+  pkgconf-2.3.0-1.aarch64                                                       
+  popt-data-1:1.19-2.noarch                                                     
+  procps-ng-4.0.5-1.aarch64                                                     
+  python3-3.11.13-1.aarch64                                                     
+  python3-dnf-4.22.0-5.noarch                                                   
+  python3-gpg-1.24.3-1.aarch64                                                  
+  python3-hawkey-0.73.4-1.aarch64                                               
+  python3-libcomps-0.1.21-1.aarch64                                             
+  python3-libdnf-0.73.4-1.aarch64                                               
+  python3-rpm-2:4.17.0-22.aarch64                                               
+  rmt-0.4b47-2.aarch64                                                          
+  rootcerts-1:20250316.00-2.noarch                                              
+  rosa-kernel-tools-1.0-9.noarch                                                
+  rosa-repos-1:13-4.aarch64                                                     
+  rosa-repos-contrib-1:13-4.aarch64                                             
+  rosa-repos-keys-1:13-4.noarch                                                 
+  rosa-repos-main-1:13-4.aarch64                                                
+  rosa-repos-pkgprefs-1:13-4.noarch                                             
+  rpm-2:4.17.0-22.aarch64                                                       
+  rpm-helper-0.24.19-2.noarch                                                   
+  rpm-rosa-setup-1.0-12.git0dfc1f.noarch                                        
+  rpmsort-2.12-15.aarch64                                                       
+  run-parts-1:5.17-1.aarch64                                                    
+  sed-4.9-4.aarch64                                                             
+  setserial-2.17-26.aarch64                                                     
+  shadow-utils-2:4.17.2-3.aarch64                                               
+  systemd-256.17-7.aarch64                                                      
+  systemd-units-256.17-7.aarch64                                                
+  tar-1.35-2.aarch64                                                            
+  tcp_wrappers-7.6-62.aarch64                                                   
+  uboot-tools-2024.10-1.aarch64                                                 
+  udev-256.17-7.aarch64                                                         
+  util-linux-1:2.39.4-2.aarch64                                                 
+  vim-minimal-2:9.2.0321-1.aarch64                                              
+  xz-5.6.4-2.aarch64                                                            
+  zstd-1.5.7-2.aarch64                                                          
+
+Complete!
+‣ bootctl is not installed, assuming 'unknown' kernel type
+‣  Running depmod for 6.1.115
+‣  Copying in extra file trees…
+‣  Running postinstall script /work/image-builder/device/rockchip/napi-c/mkosi.postinst.chroot…
+_=/usr/bin/env
+GIT_CONFIG_KEY_0=safe.directory
+OUTPUTDIR=/work/out
+CHROOT_OUTPUTDIR=/work/out
+RELEASE=rosa13
+PATH=/usr/bin:/usr/sbin
+PACKAGEDIR=/work/packages
+ARTIFACTDIR=/work/artifacts
+GIT_CONFIG_COUNT=1
+SCRIPT=/work/postinst
+SHLVL=1
+CHROOT_SCRIPT=/work/postinst
+BUILDROOT=/
+GIT_PROXY_SSL_CAINFO=/proxy.cacert
+GIT_CONFIG_VALUE_0=*
+SYSTEMD_OFFLINE=0
+MKOSI_CONFIG=/work/config.json
+TERM=dumb
+CHROOT_SRCDIR=/work/src
+DISTRIBUTION=rosa
+SYSTEMD_TMPFILES_FORCE_SUBVOL=0
+MKOSI_GID=0
+WITH_NETWORK=0
+LANG=C.UTF-8
+HOME=/
+container=mkosi
+ARCHITECTURE=arm64
+PWD=/work/src
+MKOSI_UID=0
+SYSTEMD_ASK_PASSWORD_KEYRING_TIMEOUT_SEC=infinity
+DISTRIBUTION_ARCHITECTURE=aarch64
+SYSTEMD_ASK_PASSWORD_KEYRING_TYPE=session
+SRCDIR=/work/src
+Generate /boot/uInitrd-6.1.115...
+Image Name:   
+Created:      Sat May 30 15:16:15 2026
+Image Type:   AArch64 Linux RAMDisk Image (gzip compressed)
+Data Size:    21565964 Bytes = 21060.51 KiB = 20.57 MiB
+Load Address: 00000000
+Entry Point:  00000000
+Remove dracut-generated initrd...
+removed '/boot/initrd-6.1.115.img'
+Adjust /boot/boot.cmd for kernel 6.1.115...
+Current /boot/boot.cmd...
+#########################
+setenv fdtfile "dtbs/rockchip/rk3308-napi-c.dtb"
+setenv bootargs "root=/dev/mmcblk1p3 rw rootwait rootfstype=ext4 console=ttyS0,1500000 console=tty1 consoleblank=0 loglevel=7 rockchip.smc_bug_skip=1 earlycon=uart8250,mmio32,0xff0a0000 cma=256M"
+setenv distro_bootpart 2
+echo "Boot script loaded from ${devtype} ${devnum}:${distro_bootpart}"
+load ${devtype} ${devnum}:${distro_bootpart} ${ramdisk_addr_r} ${prefix}uInitrd-6.1.115
+load ${devtype} ${devnum}:${distro_bootpart} ${kernel_addr_r} ${prefix}vmlinuz-6.1.115
+load ${devtype} ${devnum}:${distro_bootpart} ${fdt_addr_r} ${prefix}${fdtfile}
+fdt addr ${fdt_addr_r}
+fdt resize 65536
+printenv bootargs
+printenv fdtfile
+booti ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
+# Recompile with:
+# mkimage -C none -A arm -T script -d /boot/boot.cmd /boot/boot.scr
+#########################
+Generate /boot/boot.scr...
+Image Name:   
+Created:      Sat May 30 15:16:15 2026
+Image Type:   ARM Linux Script (uncompressed)
+Data Size:    819 Bytes = 0.80 KiB = 0.00 MiB
+Load Address: 00000000
+Entry Point:  00000000
+Contents:
+   Image 0: 811 Bytes = 0.79 KiB = 0.00 MiB
+‣  Setting up autologin…
+‣  Generating system users
+‣  Generating volatile files
+‣  Applying presets…
+Removed '/buildroot/etc/systemd/system/multi-user.target.wants/napi-mac.service'.
+Removed '/buildroot/etc/systemd/system/timers.target.wants/dnf-makecache.timer'.
+Created symlink '/buildroot/etc/systemd/system/multi-user.target.wants/systemd-growfs-root.service' → '/usr/lib/systemd/system/systemd-growfs-root.service'.
+Created symlink '/buildroot/etc/systemd/system/dbus-org.freedesktop.network1.service' → '/usr/lib/systemd/system/systemd-networkd.service'.
+Created symlink '/buildroot/etc/systemd/system/multi-user.target.wants/systemd-networkd.service' → '/usr/lib/systemd/system/systemd-networkd.service'.
+Created symlink '/buildroot/etc/systemd/system/sockets.target.wants/systemd-networkd.socket' → '/usr/lib/systemd/system/systemd-networkd.socket'.
+Created symlink '/buildroot/etc/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service' → '/usr/lib/systemd/system/systemd-networkd-wait-online.service'.
+Created symlink '/buildroot/etc/systemd/system/multi-user.target.wants/sshd.service' → '/usr/lib/systemd/system/sshd.service'.
+‣ bootctl is not installed, assuming 'unknown' kernel type
+‣ bootctl is not installed, assuming 'unknown' kernel type
+‣  Applying first boot settings
+/buildroot: /etc/locale.conf written.
+/buildroot: /etc/localtime written
+/buildroot: /etc/hostname written.
+/buildroot: /etc/passwd written.
+/buildroot: /etc/shadow written.
+‣  Generating hardware database
+‣  Removing files…
+‣  Running finalize script /work/image-builder/device/rockchip/napi-c/mkosi.finalize.d/10-bar.sh.finalyze…
++ env
+SRCDIR=/work/src
+SYSTEMD_ASK_PASSWORD_KEYRING_TYPE=session
+DISTRIBUTION_ARCHITECTURE=aarch64
+SYSTEMD_ASK_PASSWORD_KEYRING_TIMEOUT_SEC=infinity
+MKOSI_UID=0
+PWD=/work/src
+ARCHITECTURE=arm64
+HOME=/
+LANG=C.UTF-8
+WITH_NETWORK=0
+MKOSI_GID=0
+SYSTEMD_TMPFILES_FORCE_SUBVOL=0
+DISTRIBUTION=rosa
+CHROOT_SRCDIR=/work/src
+TERM=dumb
+MKOSI_CONFIG=/work/config.json
+SYSTEMD_OFFLINE=0
+GIT_CONFIG_VALUE_0=*
+GIT_PROXY_SSL_CAINFO=/proxy.cacert
+BUILDROOT=/buildroot
+CHROOT_SCRIPT=/work/finalize
+SHLVL=1
+SCRIPT=/work/finalize
+GIT_CONFIG_COUNT=1
+ARTIFACTDIR=/work/artifacts
+PACKAGEDIR=/work/packages
+PATH=/scripts:/usr/bin:/usr/sbin
+RELEASE=rosa13
+CHROOT_OUTPUTDIR=/work/out
+OUTPUTDIR=/work/out
+GIT_CONFIG_KEY_0=safe.directory
+_=/usr/bin/env
++ ls -la /work/src
+total 1103360
+drwxr-xr-x 8 root root       4096 May 30 15:14 .
+drwxr-xr-x 6 root root        160 May 30 15:16 ..
+-rw-r--r-- 1 root root       1525 May 29 21:44 README.md
+-rw-r--r-- 1 root root      98952 May 30 15:16 build.log
+-rwxr-xr-x 1 root root        517 May 30 14:05 build.sh
+drwxr-xr-x 2 root root       4096 May 29 22:26 mkosi
+-rw-r--r-- 1 root root        634 May 30 13:37 mkosi.conf
+drwxr-xr-x 5 root root       4096 May 29 21:44 mkosi.extra
+drwxr-xr-x 2 root root       4096 May 29 21:44 mkosi.finalize.d
+-rwxr-xr-x 1 root root       1502 May 30 15:14 mkosi.postinst.chroot
+drwxr-xr-x 2 root root       4096 May 30 10:29 mkosi.postoutput.d
+drwxr-xr-x 2 root root       4096 May 29 21:44 mkosi.repart
+drwxr-xr-x 3 root root       4096 May 30 13:34 output
+lrwxrwxrwx 1 root root         36 May 30 14:04 rosa_napic_30May-1402-vendor_611 -> rosa_napic_30May-1402-vendor_611.raw
+-rw-r--r-- 1 root root 1222205440 May 30 14:04 rosa_napic_30May-1402-vendor_611.raw
+-rw-r--r-- 1 root root   38695424 May 30 14:04 rosa_napic_30May-1402-vendor_611.vmlinuz
+‣  Generating disk image
+/work/work/image-builder/device/rockchip/napi-c/mkosi.repart/00-uboot.conf:3: File system type is not valid, refusing: 
+MountPoint= is not specified for any eligible partitions, not generating /etc/fstab
+EncryptedVolume= is not specified for any eligible partitions, not generating /etc/crypttab
+Pre-populating ext4 filesystem of partition 20-root.conf twice to calculate minimal partition size
+Populating ext4 filesystem.
+Successfully populated ext4 filesystem.
+mke2fs 1.47.2 (1-Jan-2025)
+Discarding device blocks:         0/268435456                   done                            
+Creating filesystem with 268435456 4k blocks and 67108864 inodes
+Filesystem UUID: b7970edc-4f7e-44cb-b836-6fa1c50827d6
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+	4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968, 
+	102400000, 214990848
+
+Allocating group tables:    0/8192         done                            
+Writing inode tables:    0/8192         done                            
+Creating journal (262144 blocks): done
+Copying files into the device: done
+Writing superblocks and filesystem accounting information:    0/8192         done
+
+/var/tmp/.#repartda1f86a33ab1a76b successfully formatted as ext4 (label "rootfs", uuid b7970edc-4f7e-44cb-b836-6fa1c50827d6)
+Minimal partition size of ext4 filesystem of partition 20-root.conf is 893.6M
+mke2fs 1.47.2 (1-Jan-2025)
+Discarding device blocks:      0/228764             done                            
+Creating filesystem with 228764 4k blocks and 57232 inodes
+Filesystem UUID: b2dec772-f136-4845-90f0-ce334975a790
+Superblock backups stored on blocks: 
+	32768, 98304, 163840
+
+Allocating group tables: 0/7   done                            
+Writing inode tables: 0/7   done                            
+Creating journal (4096 blocks): done
+Copying files into the device: done
+Writing superblocks and filesystem accounting information: 0/7   done
+
+/var/tmp/.#repartda1f86a33ab1a76b successfully formatted as ext4 (label "rootfs", uuid b2dec772-f136-4845-90f0-ce334975a790)
+Automatically determined minimal disk image size as 1.1G.
+Sized '/work/var/tmp/mkosi-workspace-7gx5bs7x/staging/image.raw' to 1.1G.
+Applying changes to /work/var/tmp/mkosi-workspace-7gx5bs7x/staging/image.raw.
+Copying in '/var/tmp/.#repartda1f86a33ab1a76b' (893.6M) on block level into future partition 2.
+Copying in of '/var/tmp/.#repartda1f86a33ab1a76b' on block level completed.
+Syncing future partition 2 contents to disk.
+Block level copying and synchronization of partition 2 complete in 1.143220s (781.6M/s).
+Adding new partition 0 to partition table.
+Adding new partition 2 to partition table.
+Writing new partition table.
+All done.
+‣  Formatting ESP/XBOOTLDR partitions
+/work/work/image-builder/device/rockchip/napi-c/mkosi.repart/00-uboot.conf:3: File system type is not valid, refusing: 
+Automatically determined minimal disk image size as 1.1G, current image size is 1.1G.
+File '/work/var/tmp/mkosi-workspace-7gx5bs7x/staging/image.raw' already is of requested size or larger, not growing. (1.1G >= 1.1G)
+Applying changes to /work/var/tmp/mkosi-workspace-7gx5bs7x/staging/image.raw.
+Successfully wiped file system signatures from future partition 1.
+Successfully discarded data from future partition 1.
+Formatting future partition 1.
+Populating vfat filesystem.
+Successfully populated vfat filesystem.
+mkfs.fat 4.2 (2021-01-31)
+/var/tmp/repart-mrLFu2 successfully formatted as vfat (label "BOOTFS", uuid b626fd49)
+Successfully formatted future partition 1.
+Syncing future partition 1 contents to disk.
+Adding new partition 1 to partition table.
+Writing new partition table.
+All done.
+‣ bootctl is not installed, assuming 'unknown' kernel type
+‣  Running post-output script /work/image-builder/device/rockchip/napi-c/mkosi.postoutput.d/10-bar.sh.finalyze…
+/work/out /work/src
+write bootloader to the image...
+335+1 records in
+335+1 records out
+171596 bytes (172 kB, 168 KiB) copied, 0.000554846 s, 309 MB/s
+8192+0 records in
+8192+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.0128414 s, 327 MB/s
+8192+0 records in
+8192+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.0126949 s, 330 MB/s
+/work/src
+‣ Could not rename /var/tmp/mkosi-workspace-7gx5bs7x/staging/image.raw to /work/image-builder/device/rockchip/napi-c/image.raw as they are located on different devices, falling back to copying
+‣ Could not rename /var/tmp/mkosi-workspace-7gx5bs7x/staging/image.vmlinuz to /work/image-builder/device/rockchip/napi-c/image.vmlinuz as they are located on different devices, falling back to copying
+‣  /work/image-builder/device/rockchip/napi-c/image.raw size is 1.1G, consumes 1.0G.
+=== Packing ===
+=== Done ===
+-rw-r--r-- 1 root root 137M May 30 15:16 output/images/rosa_napic_30May-1514-vendor_611.img.xz
